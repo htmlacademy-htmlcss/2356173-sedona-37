@@ -52,79 +52,81 @@
 
 
     <main class="main-inner">
+      <h1 class="visually-hidden">Каталог</h1>
 
-    <section>
-      <header>
-        <h2>гостиницы Седоны</h2>
+    <section class="filter">
+      <header class="header-filter">
+        <h2 class="title-filter">гостиницы Седоны</h2>
         <ul class="bread-crumbs">
-          <li>
-            <a href="#">
-              <span>
+          <li class="bread-crumbs index">
+            <a class="index-link" href="#">
+              <img class="index-icon" src="index.html" alt="Ссылка на главную страницу">
+              <span class="visually-hidden">
                 Главная страница
               </span>
             </a>
           </li>
-          <li>
-            <a href="">Гостиницы</a>
+          <li class="bread-crumbs catalog">
+            <a class="catalog-link" href="#">Гостиницы</a>
           </li>
         </ul>
       </header>
 
-      <form action="https://echo.htmlacademy.ru/" method="get">
-        <div>
-            <fieldset>
-            <legend>Инфраструктура:</legend>
-                <ul>
-                <li>
-                    <label>
-                      <input type="checkbox" name="swimming-pool" checked><span>Бассейн</span>
-                    </label>
+      <form class="filter-form" action="https://echo.htmlacademy.ru/" method="get">
+        <div class="col-infrastructure">
+            <fieldset class="fieldset-infrastructure">
+            <legend class="subject-infrastructure">Инфраструктура:</legend>
+              <ul class="infrastructure-list">
+                <li class="infrastructure-item">
+                  <label class="swimming pool-desc">
+                    <input class="swimming pool-check" type="checkbox" name="swimming-pool" checked><span class="swimming pool-span">Бассейн</span>
+                  </label>
                 </li>
-                <li>
-                    <label>
-                      <input type="checkbox" name="parking-space" checked><span>Парковка</span>
-                    </label>
+                <li class="infrastructure-item">
+                  <label class="parking-desc">
+                    <input class="parking-check" type="checkbox" name="parking-space" checked><span class="parking-span">Парковка</span>
+                  </label>
                 </li>
-                <li>
-                    <label>
-                      <input type="checkbox" name="wi-fi"><span>Wi-Fi</span>
-                    </label>
+                <li class="infrastructure-item">
+                  <label class="wi-fi-desc">
+                    <input class="wi-fi-check" type="checkbox" name="wi-fi"><span class="wi-fi-span">Wi-Fi</span>
+                  </label>
                 </li>
-                </ul>
+              </ul>
             </fieldset>
         </div>
-        <div>
-            <fieldset>
-            <legend>Тип жилья:</legend>
-                <ul>
-                <li>
-                    <label>
-                    <input type="radio" name="housing-type-group" value="hotel" checked>Гостиница
-                    </label>
-                </li>
-                <li>
-                    <label>
-                    <input type="radio" name="housing-type-group" value="motel">Мотель
-                    </label>
-                </li>
-                <li>
-                    <label>
-                    <input type="radio" name="housing-type-group" value="apartments">Апартаменты
-                    </label>
-                </li>
-                </ul>
-            </fieldset>
+        <div class="col-housing">
+          <fieldset class="fieldset-housing">
+            <legend class="subject-housing">Тип жилья:</legend>
+            <ul class="housing-link">
+              <li class="housing-iten">
+                <label class="hotel-desc">
+                  <input class="hotel-radio" type="radio" name="housing-type-group" value="hotel" checked><span class="hotel-span">Гостиница</span>
+                </label>
+              </li>
+              <li class="housing-iten">
+                <label class="motel-desc">
+                  <input class="motel-radio" type="radio" name="housing-type-group" value="motel"><span class="motel-span">Мотель</span>
+                </label>
+              </li>
+              <li class="housing-iten">
+                <label class="apartments-desc">
+                  <input class="apartments-radio" type="radio" name="housing-type-group" value="apartments"><span class="apartments-span">Апартаменты</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
         </div>
-        <div>
-            <label><span>Минимальная сумма</span>
-                <input type="text" name="min-price" placeholder="0">
-            </label>
-            <label><span>максимальная сумма</span>
-                <input type="text" name="min-price" placeholder="900">
-            </label>
-            <input type="range" name="slider" min="0" max="900">
-            <button type="submit">ПРИМЕНИТЬ</button>
-            <button type="reset">СБРОСИТЬ</button>
+        <div class="col-prices">
+          <label class="min-price-desc"><span class="visually-hidden">Минимальная сумма</span>
+              <input class="side-min-price" type="text" name="min-price" placeholder="0">
+          </label>
+          <label class="max-price-desc"><span class="visually-hidden">максимальная сумма</span>
+              <input class="side-max-price" type="text" name="min-price" placeholder="900">
+          </label>
+          <input class="input side-price" type="range" name="slider" min="0" max="900">
+          <button class="apply-button" type="submit">ПРИМЕНИТЬ</button>
+          <button class="reset-button" type="reset">СБРОСИТЬ</button>
         </div>
       </form>
 
@@ -246,25 +248,16 @@
         <ul class="social-list">
           <li class="social-item">
             <a class="social-link" href="#">
-              <span class="visually-hidden">
-                ВКонтакте
-              </span>
               <img src="" alt="ВКонтакте">
             </a>
           </li>
           <li class="social-item">
               <a class="social-link" href="#">
-                <span class="visually-hidden">
-                  Телеграм
-                </span>
                 <img src="" alt="Телеграмм">
               </a>
           </li>
           <li class="social-link">
               <a href="#">
-                <span class="visually-hidden">
-                    Твитер
-                </span>
                 <img src="" alt="Твитер">
             </a>
           </li>
