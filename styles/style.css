@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 400;
 
-  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
 
   font-display: swap;
 
@@ -15,7 +15,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -23,7 +23,7 @@
   font-family: "PT Sans";
   font-style: italic;
   font-weight: 400;
-  src: url("../fonts/pt-sans-italic.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -31,7 +31,7 @@
   font-family: "PT Sans";
   font-style: italic;
   font-weight: 700;
-  src: url("../fonts/pt-sans-bold-italic.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -39,6 +39,75 @@
   font-family: "PT Sans Narrow";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/pt-sans-narrow-bold.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
+}
+
+body {
+  font-family: "PT Sans" ;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #fbf7f4;
+}
+
+.visually-hidden{
+}
+
+
+/*HEADER (ШАПКА)*/
+/*header(шапка)*/
+.page-header{
+  background-color: #FFFFFF;
+  color: #000000;
+}
+/*Ссылки header*/
+.navigation-link, .login-button{
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 22px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+/*Ссылка "ХОЧУ СЮДА"*/
+.login-button{
+  background-color: #756157;
+  padding: 8px 50px;
+  color: #FFFFFF;
+}
+
+
+/*ГЛВНАЯ СТРАНИЦА*/
+/*Контент главной страницы*/
+.main-index{
+
+}
+/*Hero*/
+/*Фон-изоюражение Hero*/
+.hero-welcome{
+  background-color: #FFFFFF;
+  background-image: url("../img/index-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+/*Текстовый контейнер Hero*/
+.hero-welcome-text{
+  background-color: #FFFFFF;
+  color: #000000;
+  text-align: center;
+}
+/*Приемущества*/
+/*Текст в приемуществах*/
+.advantages{
+  text-align: center;
+}
+.advantages h3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.advantages p{
+  font-size: 18px;
+  line-height: 21px;
 }
