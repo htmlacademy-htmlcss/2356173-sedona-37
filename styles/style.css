@@ -197,3 +197,50 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
+
+
+
+.subscription{
+background-color: #FFFFFF;
+  background-image:url("../img/Subscribe.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  align-items: center;
+}
+
+.subscription h3{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.subscription{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.subscription-field{
+  align-items: center;
+padding: 12px 20px;
+gap: 260px;
+background: #F2F2F2;
+border-radius: 4px 4px;
+
+}
+.subscription-button_newsletter-button{
+  align-items: center;
+  padding: 8px 50px;
+  gap: 10px;
+  background-color: #82B3D3;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
