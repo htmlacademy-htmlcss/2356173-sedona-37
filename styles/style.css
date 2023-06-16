@@ -91,7 +91,7 @@ body {
   background-size: 100% auto;
 }
 /*Текстовый контейнер Hero*/
-.hero-welcome-text{
+.hero-welcome-text, .invitation{
   background-color: #FFFFFF;
   color: #000000;
   text-align: center;
@@ -113,7 +113,6 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-
 }
 /*Фон и цвет, текстаи заголовка 1 и 5 блока*/
 .advantages-content_1, .advantages-content_5{
@@ -128,7 +127,6 @@ body {
 .advantages-content_2, .advantages-content_4,.advantages-content_3 p{
   color: #333333;
 }
-
 /*Цвет фона 2 и 4 блока*/
 .advantages-content_2, .advantages-content_4{
   background-color: #FFFFFF;
@@ -136,4 +134,66 @@ body {
 /*Цвет фона 3 блока*/
 .advantages-content_3{
   background-color: rgba(131, 179, 211, 0.2);;
+}
+
+/*Блоки услуг*/
+/*Позиционирование содержимого*/
+.services{
+  text-align: center;
+}
+/*Стиль заголовков*/
+.services h3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+/*Стиль текста*/
+.services p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+/*Фон 1 и 3 блока*/
+.services-blok_1, .services-blok_3{
+  background-color: rgba(131, 179, 211, 0.12);;
+}
+/*Фон 2 блока*/
+.services-blok_2{
+  background-color: #FFFFFF;
+}
+
+/*Поиск гостиницы*/
+/*Позиционирование содержимого и фон*/
+.registration{
+  text-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+/*Стиль заголовкf*/
+.registration h3{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+/*Стиль текста*/
+.registration p{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+/*Стиль ссылки*/
+.registration-button{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  background: #756157;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
