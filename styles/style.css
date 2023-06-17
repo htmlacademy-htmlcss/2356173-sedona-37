@@ -268,21 +268,165 @@ body {
 
 /*КАТАЛОГ*/
 
+/*Фильтр*/
+/*Фон фильтра*/
 .filter{
   background-image: url(../img/Фильтр.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+/*Стиль заголовка*/
 .title-filter{
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
   color: #FFFFFF;
 }
+/*Стиль ссылки*/
 .catalog-link{
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/*Стиль заголовков*/
+.col-prices, .filter-form legend{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+/*Стиль текста чекбоксов и радиокнопок*/
+.checkbox-span, .radio-span{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+/*Стиль строк ввода цен*/
+.col-prices input{
+  align-items: center;
+  padding: 12px 20px;
+  gap: 260px;
+  background: #F2F2F2;
+  border-radius: 4px 4px;
+}
+/*Стиль кнопки Применить*/
+.apply-button{
+  align-items: center;
+  padding: 8px 50px;
+  gap: 10px;
+  background: #82B3D3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+/*Стильк Кнопки сброса*/
+.reset-button{
+  align-items: center;
+  padding: 8px 50px;
+  gap: 10px;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+/*Блог каталога гостиниц*/
+/*Фон блока*/
+.catalog-section{
+  background-color: #FFFFFF;
+}
+/*Стиль текста найденых гостиниц*/
+.found{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+/*Стиль выподающего списка*/
+.dropdown-sorting{
+  align-items: center;
+  padding: 14px 20px;
+  gap: 94px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+/*Фон и рамки блока*/
+.features-item{
+  background-color: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+}
+/*Стиль отключение подчеркивания у ссылок*/
+.hotel-link{
+  text-decoration: none;
+}
+/*Стиль заголовков (наименование гостиниц)*/
+.caption-hotel{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-transform: none;
+}
+/*Стиль текста (Гостиница, цена)*/
+.hotel-text, .hotel-text_price{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+/*Стиль ссылки Подроюнее*/
+.detailed-link{
+  padding: 8px 50px;
+  gap: 10px;
+  background-color: #756157;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/*Стиль кнопки "В избрное*/
+.favourites-button{
+  align-items: center;
+  padding: 8px 50px;
+  gap: 10px;
+  background: #82B3D3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+/*Стиль нумерации страниц*/
+.page_numbering-link{
+  background: #82B3D3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
   color: #FFFFFF;
   text-decoration: none;
 }
