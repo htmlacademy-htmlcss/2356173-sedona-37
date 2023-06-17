@@ -74,6 +74,7 @@ body {
   background-color: #756157;
   padding: 8px 50px;
   color: #FFFFFF;
+  border-radius: 4px;
 }
 
 
@@ -89,6 +90,7 @@ body {
   background-image: url("../img/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  text-align: center;
 }
 /*Текстовый контейнер Hero*/
 .hero-welcome-text, .invitation{
@@ -172,7 +174,7 @@ body {
   align-items: center;
   background-color: #FFFFFF;
 }
-/*Стиль заголовкf*/
+/*Стиль заголовка*/
 .registration h3{
   font-weight: 700;
   font-size: 30px;
@@ -199,17 +201,17 @@ body {
 }
 
 
-
-
+/*Подписка*/
+/*Стиль блока*/
 .subscription{
-background-color: #FFFFFF;
-  background-image:url("../img/Subscribe.jpg") ;
+  background-color: #FFFFFF;
+  background-image:url("../img/Subscribe.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   text-align: center;
   align-items: center;
 }
-
+/*Стиль заголовка*/
 .subscription h3{
   font-weight: 700;
   font-size: 30px;
@@ -217,30 +219,50 @@ background-color: #FFFFFF;
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.subscription{
+/*Стиль теста*/
+.subscription p{
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   color: #FFFFFF;
 }
-
+/*Стиль строки ввода*/
 .subscription-field{
   align-items: center;
-padding: 12px 20px;
-gap: 260px;
-background: #F2F2F2;
-border-radius: 4px 4px;
+  padding: 12px 20px;
+  background-color: #F2F2F2;
+  border-radius: 4px 4px;
 
 }
+/*Стиль кнопки*/
 .subscription-button_newsletter-button{
   align-items: center;
   padding: 8px 50px;
-  gap: 10px;
   background-color: #82B3D3;
+  border-radius:  4px 4px ;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+/*Footer*/
+/*Фон*/
+.footer-page{
+  background-color: #FFFFFF;
+}
+.phone{
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+
+}
+.visually-hidden{
+  display: none;
 }
