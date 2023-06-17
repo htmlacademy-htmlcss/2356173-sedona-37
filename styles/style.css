@@ -1,0 +1,432 @@
+@font-face {
+
+  font-family: "PT Sans";
+
+  font-style: normal;
+  font-weight: 400;
+
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans" ;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #fbf7f4;
+}
+
+.visually-hidden{
+  display: none;
+}
+
+/*HEADER (ШАПКА)*/
+/*header(шапка)*/
+.page-header{
+  background-color: #FFFFFF;
+  color: #000000;
+}
+/*Ссылки header*/
+.navigation-link, .login-button{
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 22px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+/*Ссылка "ХОЧУ СЮДА"*/
+.login-button{
+  background-color: #756157;
+  padding: 8px 50px;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+
+/*ГЛВНАЯ СТРАНИЦА*/
+/*Контент главной страницы*/
+.main-index{
+
+}
+/*Hero*/
+/*Фон-изоюражение Hero*/
+.hero-welcome{
+  background-color: #FFFFFF;
+  background-image: url("../img/index-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+}
+/*Текстовый контейнер Hero*/
+.hero-welcome-text, .invitation{
+  background-color: #FFFFFF;
+  color: #000000;
+  text-align: center;
+}
+/*Приемущества*/
+/*Текст в приемуществах*/
+.advantages{
+  text-align: center;
+}
+/*Стиль заголовков*/
+.advantages h3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+/*Стиль текста заголовков*/
+.advantages p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+/*Фон и цвет, текстаи заголовка 1 и 5 блока*/
+.advantages-content_1, .advantages-content_5{
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+/*Цвет заголовка 2, 3 и 4 блока*/
+.advantages-content_2, .advantages-content_4, .advantages-content_3 h3{
+  color: #000000;
+}
+/*Цвет теста 2, 3 и 4 блока*/
+.advantages-content_2, .advantages-content_4,.advantages-content_3 p{
+  color: #333333;
+}
+/*Цвет фона 2 и 4 блока*/
+.advantages-content_2, .advantages-content_4{
+  background-color: #FFFFFF;
+}
+/*Цвет фона 3 блока*/
+.advantages-content_3{
+  background-color: rgba(131, 179, 211, 0.2);;
+}
+
+/*Блоки услуг*/
+/*Позиционирование содержимого*/
+.services{
+  text-align: center;
+}
+/*Стиль заголовков*/
+.services h3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+/*Стиль текста*/
+.services p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+/*Фон 1 и 3 блока*/
+.services-blok_1, .services-blok_3{
+  background-color: rgba(131, 179, 211, 0.12);;
+}
+/*Фон 2 блока*/
+.services-blok_2{
+  background-color: #FFFFFF;
+}
+
+/*Поиск гостиницы*/
+/*Позиционирование содержимого и фон*/
+.registration{
+  text-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+/*Стиль заголовка*/
+.registration h3{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+/*Стиль текста*/
+.registration p{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+/*Стиль ссылки*/
+.registration-button{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  background: #756157;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
+/*Подписка*/
+/*Стиль блока*/
+.subscription{
+  background-color: #FFFFFF;
+  background-image:url("../img/Subscribe.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  align-items: center;
+}
+/*Стиль заголовка*/
+.subscription h3{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+/*Стиль теста*/
+.subscription p{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+/*Стиль строки ввода*/
+.subscription-field{
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #F2F2F2;
+  border-radius: 4px 4px;
+
+}
+/*Стиль кнопки*/
+.subscription-button_newsletter-button{
+  align-items: center;
+  padding: 8px 50px;
+  background-color: #82B3D3;
+  border-radius:  4px 4px ;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/*Footer*/
+/*Фон*/
+.footer-page{
+  background-color: #FFFFFF;
+}
+.phone{
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+
+}
+
+
+
+/*КАТАЛОГ*/
+
+/*Фильтр*/
+/*Фон фильтра*/
+.filter{
+  background-image: url(../img/Фильтр.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+/*Стиль заголовка*/
+.title-filter{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+/*Стиль ссылки*/
+.catalog-link{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/*Стиль заголовков*/
+.col-prices, .filter-form legend{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+/*Стиль текста чекбоксов и радиокнопок*/
+.checkbox-span, .radio-span{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+/*Стиль строк ввода цен*/
+.col-prices input{
+  align-items: center;
+  padding: 12px 20px;
+  gap: 260px;
+  background: #F2F2F2;
+  border-radius: 4px 4px;
+}
+/*Стиль кнопки Применить*/
+.apply-button{
+  align-items: center;
+  padding: 8px 50px;
+  gap: 10px;
+  background: #82B3D3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+/*Стильк Кнопки сброса*/
+.reset-button{
+  align-items: center;
+  padding: 8px 50px;
+  gap: 10px;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+/*Блог каталога гостиниц*/
+/*Фон блока*/
+.catalog-section{
+  background-color: #FFFFFF;
+}
+/*Стиль текста найденых гостиниц*/
+.found{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+/*Стиль выподающего списка*/
+.dropdown-sorting{
+  align-items: center;
+  padding: 14px 20px;
+  gap: 94px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+/*Фон и рамки блока*/
+.features-item{
+  background-color: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+}
+/*Стиль отключение подчеркивания у ссылок*/
+.hotel-link{
+  text-decoration: none;
+}
+/*Стиль заголовков (наименование гостиниц)*/
+.caption-hotel{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-transform: none;
+}
+/*Стиль текста (Гостиница, цена)*/
+.hotel-text, .hotel-text_price{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+/*Стиль ссылки Подроюнее*/
+.detailed-link{
+  padding: 8px 50px;
+  gap: 10px;
+  background-color: #756157;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/*Стиль кнопки "В избрное*/
+.favourites-button{
+  align-items: center;
+  padding: 8px 50px;
+  gap: 10px;
+  background: #82B3D3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+/*Стиль нумерации страниц*/
+.page_numbering-link{
+  background: #82B3D3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
