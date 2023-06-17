@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона Каталог</title>
-    <link rel="stylesheet" href="styles/catalog.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
     <header class="page-header">
@@ -74,83 +74,89 @@
 
     <main class="main-inner">
       <h1 class="visually-hidden">Каталог</h1>
+      <section class="filter">
+        <h2 class="visually-hidden">Фильтр</h2>
+        <header class="header-filter">
+          <h3 class="title-filter">Гостиницы Седоны</h3>
+          <ul class="bread-crumbs">
+            <li class="bread-crumbs_index">
+              <a class="index-link" href="index.html">
+                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.5 0.5L0.5 6.30006V12.5001H12.5V6.30006L6.5 0.5ZM11.5 11.5001H1.5V6.70005L6.5 1.9L11.5 6.70005V11.5001Z" fill="white"/>
+                  <path d="M4.5 10.5001H5.5V8.00005H7.5V10.5001H8.5V7.00005H4.5V10.5001Z" fill="white"/>
+                </svg>
+                <span class="visually-hidden">
+                  Главная страница
+                </span>
+              </a>
+            </li>
+            <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.91526 4.96875L2.16526 0.71875C1.91526 0.46875 1.41526 0.46875 1.04026 0.71875C0.665263 0.96875 0.790263 1.46875 1.04026 1.71875L5.16526 5.46875L1.16526 9.21875C0.915263 9.46875 0.915263 9.96875 1.16526 10.2188C1.16526 10.3438 1.54026 10.4688 1.66526 10.4688C1.79026 10.4688 2.04026 10.3438 2.16526 10.2188L6.91526 5.96875C7.29026 5.71875 7.29026 5.21875 6.91526 4.96875Z" fill="white"/>
+            </svg>
+            <li class="bread-crumbs_catalog">
+              <a class="catalog-link" href="#">Гостиницы</a>
+            </li>
+          </ul>
+        </header>
 
-    <section class="filter">
-      <h2 class="visually-hidden">Фильтк</h2>
-      <header class="header-filter">
-        <h2 class="title-filter">гостиницы Седоны</h2>
-        <ul class="bread-crumbs">
-          <li class="bread-crumbs index">
-            <a class="index-link" href="#">
-              <img class="index-icon" src="index.html" alt="Ссылка на главную страницу">
-              <span class="visually-hidden">
-                Главная страница
-              </span>
-            </a>
-          </li>
-          <li class="bread-crumbs catalog">
-            <a class="catalog-link" href="#">Гостиницы</a>
-          </li>
-        </ul>
-      </header>
-
-      <form class="filter-form" action="https://echo.htmlacademy.ru/" method="get">
-        <div class="col-infrastructure">
-            <fieldset class="fieldset-infrastructure">
-            <legend class="subject-infrastructure">Инфраструктура:</legend>
-              <ul class="infrastructure-list">
-                <li class="infrastructure-item">
-                  <label class="swimming pool-desc">
-                    <input class="swimming pool-check" type="checkbox" name="swimming-pool" checked><span class="swimming pool-span">Бассейн</span>
+        <form class="filter-form" action="https://echo.htmlacademy.ru/" method="get">
+          <div class="col-infrastructure">
+              <fieldset class="fieldset-infrastructure">
+              <legend class="subject-infrastructure">Инфраструктура:</legend>
+                <ul class="infrastructure-list">
+                  <li class="infrastructure-item">
+                    <label class="swimming_pool-desc">
+                      <input class="swimming_pool-check" type="checkbox" name="swimming-pool" checked><span class="swimming pool-span">Бассейн</span>
+                    </label>
+                  </li>
+                  <li class="infrastructure-item">
+                    <label class="parking-desc">
+                      <input class="parking-check" type="checkbox" name="parking-space" checked><span class="parking-span">Парковка</span>
+                    </label>
+                  </li>
+                  <li class="infrastructure-item">
+                    <label class="wi-fi-desc">
+                      <input class="wi-fi-check" type="checkbox" name="wi-fi"><span class="wi-fi-span">Wi-Fi</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+          </div>
+          <div class="col-housing">
+            <fieldset class="fieldset-housing">
+              <legend class="subject-housing">Тип жилья:</legend>
+              <ul class="housing-link">
+                <li class="housing-iten">
+                  <label class="hotel-desc">
+                    <input class="hotel-radio" type="radio" name="housing-type-group" value="hotel" checked><span class="hotel-span">Гостиница</span>
                   </label>
                 </li>
-                <li class="infrastructure-item">
-                  <label class="parking-desc">
-                    <input class="parking-check" type="checkbox" name="parking-space" checked><span class="parking-span">Парковка</span>
+                <li class="housing-iten">
+                  <label class="motel-desc">
+                    <input class="motel-radio" type="radio" name="housing-type-group" value="motel"><span class="motel-span">Мотель</span>
                   </label>
                 </li>
-                <li class="infrastructure-item">
-                  <label class="wi-fi-desc">
-                    <input class="wi-fi-check" type="checkbox" name="wi-fi"><span class="wi-fi-span">Wi-Fi</span>
+                <li class="housing-iten">
+                  <label class="apartments-desc">
+                    <input class="apartments-radio" type="radio" name="housing-type-group" value="apartments"><span class="apartments-span">Апартаменты</span>
                   </label>
                 </li>
               </ul>
             </fieldset>
-        </div>
-        <div class="col-housing">
-          <fieldset class="fieldset-housing">
-            <legend class="subject-housing">Тип жилья:</legend>
-            <ul class="housing-link">
-              <li class="housing-iten">
-                <label class="hotel-desc">
-                  <input class="hotel-radio" type="radio" name="housing-type-group" value="hotel" checked><span class="hotel-span">Гостиница</span>
-                </label>
-              </li>
-              <li class="housing-iten">
-                <label class="motel-desc">
-                  <input class="motel-radio" type="radio" name="housing-type-group" value="motel"><span class="motel-span">Мотель</span>
-                </label>
-              </li>
-              <li class="housing-iten">
-                <label class="apartments-desc">
-                  <input class="apartments-radio" type="radio" name="housing-type-group" value="apartments"><span class="apartments-span">Апартаменты</span>
-                </label>
-              </li>
-            </ul>
-          </fieldset>
-        </div>
-        <div class="col-prices">
-          <label class="min-price-desc"><span class="visually-hidden">Минимальная сумма</span>
-              <input class="side-min-price" type="text" name="min-price" placeholder="0">
-          </label>
-          <label class="max-price-desc"><span class="visually-hidden">максимальная сумма</span>
-              <input class="side-max-price" type="text" name="min-price" placeholder="900">
-          </label>
-          <input class="input side-price" type="range" name="slider" min="0" max="900">
-          <button class="apply-button" type="submit">ПРИМЕНИТЬ</button>
-          <button class="reset-button" type="reset">СБРОСИТЬ</button>
-        </div>
-      </form>
+          </div>
+          <div class="col-prices">
+            <label class="min-price-desc"><span class="visually-hidden">Минимальная сумма</span>
+                <input class="side-min-price" type="text" name="min-price" placeholder="0">
+            </label>
+            <label class="max-price-desc"><span class="visually-hidden">максимальная сумма</span>
+                <input class="side-max-price" type="text" name="min-price" placeholder="900">
+            </label>
+            <input class="input side-price" type="range" name="slider" min="0" max="900">
+            <button class="apply-button" type="submit">ПРИМЕНИТЬ</button>
+            <button class="reset-button" type="reset">СБРОСИТЬ</button>
+          </div>
+        </form>
+      </section>
 
 
 

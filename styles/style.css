@@ -52,8 +52,8 @@ body {
 }
 
 .visually-hidden{
+  display: none;
 }
-
 
 /*HEADER (ШАПКА)*/
 /*header(шапка)*/
@@ -263,6 +263,26 @@ body {
   color: #000000;
 
 }
-.visually-hidden{
-  display: none;
+
+
+
+/*КАТАЛОГ*/
+
+.filter{
+  background-image: url(../img/Фильтр.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.title-filter{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+.catalog-link{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
