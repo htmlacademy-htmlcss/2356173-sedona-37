@@ -65,7 +65,14 @@ body {
 
 .navigation{
   display: flex;
+  width: 1160px;
+  margin: 0 70px;
+  justify-content:space-between;
 }
+.navigation-list{
+  display: flex;
+}
+
 
 .navigation-list, .navigation-icon {
   margin: 0;
