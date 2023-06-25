@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #242424;
@@ -114,6 +114,10 @@ body {
 .advantages{
   text-align: center;
 }
+/*Удаление внешних рамок*/
+.hero-title{
+  margin: 0;
+}
 /*Стиль заголовков*/
 .advantages h3{
   font-weight: 700;
@@ -127,25 +131,25 @@ body {
   font-size: 18px;
   line-height: 21px;
 }
-/*Фон и цвет, текстаи заголовка 1 и 5 блока*/
-.advantages-content_1, .advantages-content_5{
+/*Фон и цвет, текста и заголовка 1 и 5 блока*/
+.one_style{
   color: #FFFFFF;
   background-color: #82B3D3;
 }
 /*Цвет заголовка 2, 3 и 4 блока*/
-.advantages-content_2, .advantages-content_4, .advantages-content_3 h3{
+.two_style, .three_style h3{
   color: #000000;
 }
 /*Цвет теста 2, 3 и 4 блока*/
-.advantages-content_2, .advantages-content_4,.advantages-content_3 p{
+.two_style, .three_style p{
   color: #333333;
 }
 /*Цвет фона 2 и 4 блока*/
-.advantages-content_2, .advantages-content_4{
+.two_style{
   background-color: #FFFFFF;
 }
 /*Цвет фона 3 блока*/
-.advantages-content_3{
+.three_style{
   background-color: rgba(131, 179, 211, 0.2);;
 }
 
