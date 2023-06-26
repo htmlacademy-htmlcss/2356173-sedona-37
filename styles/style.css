@@ -1,12 +1,8 @@
 @font-face {
-
   font-family: "PT Sans";
-
   font-style: normal;
   font-weight: 400;
-
   src: url("../fonts/ptsans-400.woff2") format("woff2");
-
   font-display: swap;
 
 }
@@ -102,24 +98,50 @@ body {
 
 }
 /*Hero*/
-/*Фон-изоюражение Hero*/
+
+/*Фон-изоюражение Hero, внутренние отступы*/
 .hero-welcome{
   background-color: #FFFFFF;
   background-image: url("../img/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   text-align: center;
+  padding: 51px 371px 82px;
 }
 /*Текстовый контейнер Hero*/
-.hero-welcome-text, .invitation{
+.hero-welcome-text{
   background-color: #FFFFFF;
   color: #000000;
+
+  padding: 69px 0 69px;
+  margin: 0;
+}
+.hero-welcome-text h2{
+  color: var(--texts-texts-basic, #000);
+  margin: 0 auto 25px;
+  font-size: 30px;
+  font-family: PT Sans;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  max-width: 620px;
   text-align: center;
+
+}
+.hero-welcome-text p{
+  color: var(--texts-second, #333);
+  text-align: center;
+  font-size: 22px;
+  font-family: PT Sans;
+  line-height: 26px;
+  margin: 0;
 }
 /*Приемущества*/
 /*Текст в приемуществах*/
 .advantages{
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 /*Удаление внешних рамок*/
 .hero-title{
@@ -131,33 +153,74 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  margin: 0 0 30px;
 }
 /*Стиль текста заголовков*/
 .advantages p{
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  margin: 30px 0 0;
+
 }
+
 /*Фон и цвет, текста и заголовка 1 и 5 блока*/
 .one_style{
   color: #FFFFFF;
   background-color: #82B3D3;
+  padding: 103px 85px;
+  max-width: 230px;
+  margin: 0;
+
 }
 /*Цвет заголовка 2, 3 и 4 блока*/
 .two_style, .three_style h3{
   color: #000000;
+  margin: 0 0 30px;
 }
 /*Цвет теста 2, 3 и 4 блока*/
 .two_style, .three_style p{
   color: #333333;
+
 }
 /*Цвет фона 2 и 4 блока*/
 .two_style{
   background-color: #FFFFFF;
+  padding: 103px 85px;
+  max-width: 230px;
+  margin: 0;
 }
 /*Цвет фона 3 блока*/
 .three_style{
-  background-color: rgba(131, 179, 211, 0.2);;
+  background-color: rgba(131, 179, 211, 0.2);
+  padding: 103px 85px;
+  max-width: 230px;
+  margin: 0;
+}
+.invitation{
+  display: flex;
+  background-color: #FFFFFF;
+  padding: 64px 0px;
+
+}
+.invitation h2{
+  color: var(--texts-texts-basic, #000);
+  text-align: center;
+  font-size: 30px;
+  font-family: PT Sans;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0 auto 20px;
+  max-width: 505px;
+}
+.invitation p{
+  color: var(--texts-second, #333);
+  text-align: center;
+  font-size: 22px;
+  font-family: PT Sans;
+  line-height: 26px;
+  margin: 0;
 }
 
 /*Блоки услуг*/
